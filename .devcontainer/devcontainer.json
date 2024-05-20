@@ -6,7 +6,7 @@
 	"service": "app",
 	"workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
 	"forwardPorts": [4000],
-	"postCreateCommand": "npm install && npm run util:seed",
+	"postCreateCommand": "npm install && npm run compile && npm run util:seed",
 	"customizations": {
 		"vscode": {
 			"extensions": [
